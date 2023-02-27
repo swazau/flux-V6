@@ -34,8 +34,6 @@ spec:
       tls:
         - hosts:
             - *host
-          secretName: longhorn-tls
-      #tls: true
 
     persistence:
       defaultClassReplicaCount: 1
