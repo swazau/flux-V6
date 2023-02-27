@@ -8,7 +8,7 @@ spec:
   interval: 30m
   ref:
     branch: main
-  url: "https://github.com/dandocmando/flux-cluster-V4"
+  url: "https://github.com/dandocmando/flux-V6"
   ignore: |
     # exclude all
     /*
