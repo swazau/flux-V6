@@ -31,10 +31,8 @@ spec:
 
       host: &host "longhorn.${SECRET_DOMAIN}"
 
-      tls:
-        - hosts:
-            - *host
-          secretName: longhorn-tls
+      tls: true
+      tlsSecret: "longhorn-tls"
 
 
     persistence:
